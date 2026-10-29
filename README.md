@@ -1,120 +1,75 @@
-# Modern Dark & Crimson Red Developer Portfolio
+# 👋 Hi, I'm Ridoy Mondol
 
-A modern, high-performance personal portfolio website built with **React**, **Next.js 16** (or **Vite** compatible components), and **Tailwind CSS**. Designed with a bold, dark aesthetic (`#0B0B0F`), subtle dark-red radial glow, and crimson red (`#E11D2E`) primary accents.
+### Aspiring Web Developer | Future Full-Stack Developer 🚀
 
----
+I'm a passionate programming learner from Bangladesh who loves building modern, responsive, and user-friendly web applications. I enjoy learning new technologies, solving problems, and turning ideas into real-world projects.
 
-## 🌟 Key Features & Design Highlights
-
-- **Bold Dark Theme**: Deep near-black background (`#0B0B0F`), dark charcoal cards (`#18181B`), and sharp crimson red accents (`#E11D2E`).
-- **Typography**: Google Fonts **Outfit** for heavy geometric headings and **Inter** for clean body readability.
-- **Glassmorphism Navbar**: Sticky header with backdrop-blur, active section tracker, mobile slide-in menu, and red pill "Download CV" button.
-- **Hero Section**: 
-  - Prominent 8xl bold name heading
-  - Animated role typing effect
-  - Arched photo frame with dark-red glow
-  - 2 floating glassmorphism stat cards (`10+ Projects Done`, `2+ Years Experience`)
-  - Primary red pill "Get in Touch" & secondary red outline pill "Download CV"
-  - Social media row (GitHub, LinkedIn, Twitter/X, Facebook)
-- **About Section ("WHO AM I?")**:
-  - 2-column responsive layout
-  - Workspace photo showcase with 2 stat cards (`55k Client Users`, `99+ Happy Clients`)
-  - 2-column personal details list with red icons (DOB, Location, Email, Phone, Languages, Freelance status)
-- **Projects Section ("MY WORK")**:
-  - 3-column responsive grid with image zoom on hover
-  - Tech chips, live links, and red "View Details" buttons
-  - Separate dedicated case study pages for every project (`/projects/[id]`)
-- **Vertical Timelines**:
-  - Education and Experience with red node dots and gradient connecting lines
-- **Contact Section ("Let's Work Together")**:
-  - Contact cards for Email, Phone, and Location with red icons
-  - Direct WhatsApp click-to-chat button (`https://wa.me/...`)
-  - Contact form with dark inputs, red focus ring, and validation feedback
-- **Footer**:
-  - Centered brand logo with red dot, quick links, social icons, and copyright
+🌐 **Portfolio:** [ridoymondol.vercel.app](https://ridoymondol.vercel.app/)  
+💻 **GitHub:** [@ridumondol](https://github.com/ridumondol)
 
 ---
 
-## 📁 Project Structure
+## 🚀 About Me
 
-```text
-my-app/
-├── app/
-│   ├── globals.css              # Dark theme, crimson red glow & animations
-│   ├── layout.tsx               # Google Fonts (Outfit & Inter) + SEO Metadata
-│   ├── page.tsx                 # Main single-page portfolio layout
-│   └── projects/
-│       └── [id]/
-│           └── page.tsx         # Dedicated project detail & case study page
-├── components/
-│   ├── Navbar.tsx               # Glassmorphism sticky navbar
-│   ├── Hero.tsx                 # Headline, typing animation & floating cards
-│   ├── About.tsx                # 2-column story, stats & personal details
-│   ├── Projects.tsx             # Responsive grid with image hover zoom
-│   ├── Education.tsx            # Vertical education timeline
-│   ├── Experience.tsx           # Vertical experience & freelance timeline
-│   ├── Contact.tsx              # Clean form with red focus ring & WhatsApp
-│   ├── Footer.tsx               # Centered footer with red top border
-│   └── Icons.tsx                # GitHub, LinkedIn, Twitter/X, Facebook icons
-├── data/
-│   └── portfolioData.ts         # Single source of truth for all content
-└── public/
-    ├── images/
-    │   ├── profile.jpg          # Your professional photo placeholder
-    │   └── projects/            # Project mockup SVGs
-    └── resume.pdf               # Downloadable resume/CV PDF
-```
+- 🌱 Currently learning **React.js and modern web development**
+- 💻 Practicing by building real-world projects
+- 🎯 Goal: Become a skilled **Full-Stack Developer**
+- 🧠 Interested in problem-solving and continuous learning
+- 🤝 Open to collaboration, learning opportunities, and exciting projects
+- ⚡ Believe in learning by building and improving every day
 
 ---
 
-## 🚀 How to Run Locally
+## 🛠️ Tech Stack
 
-### 1. Prerequisites
-Ensure you have **Node.js 18+** installed on your system.
+### Frontend Development
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-### 2. Installation
-Open your terminal in the project directory and install dependencies:
-```bash
-npm install
-```
-
-### 3. Run Development Server
-```bash
-npm run dev
-```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+### Tools & Platforms
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ---
 
-## 🌐 How to Deploy to Vercel or Netlify
+## 📌 Featured Projects
 
-### Deploying to Vercel (Recommended)
-1. Push your code to your GitHub repository:
-   ```bash
-   git add .
-   git commit -m "Dark and crimson red portfolio redesign"
-   git push origin main
-   ```
-2. Go to [Vercel](https://vercel.com) and log in with your GitHub account.
-3. Click **"Add New"** > **"Project"** and select your repository.
-4. Click **"Deploy"**. Your website will be live with an SSL certificate in less than a minute.
+Check out my portfolio and GitHub repositories to explore my projects, experiments, and learning journey.
 
-### Deploying to Netlify
-1. Go to [Netlify](https://netlify.com) and log in with GitHub.
-2. Click **"Add new site"** > **"Import an existing project"**.
-3. Select your repository. Netlify will auto-detect Next.js.
-4. Click **"Deploy site"**.
+🌐 **[Visit My Portfolio](https://ridoymondol.vercel.app/)**
+
+💻 **[Explore My GitHub Repositories](https://github.com/ridumondol?tab=repositories)**
 
 ---
 
-## ✏️ Checklist: What to Personalize
+## 📊 GitHub Statistics
 
-All your personal data is centralized in [`data/portfolioData.ts`](file:///c:/Users/Hp/OneDrive/Desktop/Protfolio/my-app/data/portfolioData.ts):
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ridumondol&show_icons=true&theme=tokyonight&hide_border=true)
 
-- [ ] **Photo**: Replace [`public/images/profile.jpg`](file:///c:/Users/Hp/OneDrive/Desktop/Protfolio/my-app/public/images/profile.jpg) with your own photo.
-- [ ] **CV / Resume**: Replace [`public/resume.pdf`](file:///c:/Users/Hp/OneDrive/Desktop/Protfolio/my-app/public/resume.pdf) with your actual PDF CV.
-- [ ] **Personal Details**: Open [`data/portfolioData.ts`](file:///c:/Users/Hp/OneDrive/Desktop/Protfolio/my-app/data/portfolioData.ts) and verify:
-  - `name`, `brandName`, `dob`, `email`, `phone`, `whatsapp`, `location`, `languages`
-  - `roles` (the titles that cycle in the typing animation)
-  - `socialLinks` (your GitHub, LinkedIn, Twitter, and Facebook URLs)
-  - `projects` (add or edit live links and GitHub URLs)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ridumondol&layout=compact&theme=tokyonight&hide_border=true)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=ridumondol&theme=tokyonight&hide_border=true)
+
+---
+
+## 🤝 Let's Connect
+
+I'm always interested in learning, sharing ideas, and connecting with fellow developers.
+
+- 🌐 **Portfolio:** [ridoymondol.vercel.app](https://ridoymondol.vercel.app/)
+- 💻 **GitHub:** [ridumondol](https://github.com/ridumondol)
+
+---
+
+### 💡 My Philosophy
+
+> "Every expert was once a beginner. Keep learning, keep building, and never stop improving."
+
+⭐ Thanks for visiting my profile! Feel free to explore my repositories and follow my journey as I grow as a developer.
+
+**Made with ❤️ by Ridoy Mondol**
