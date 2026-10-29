@@ -1,4 +1,5 @@
-# Hi there! 👋 I'm Ridoy Mondol
+https://github.com/ridumondol/ridoymondol
+"# Hi there! 👋 I'm Ridoy Mondol
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status">
@@ -41,3 +42,6 @@ The project utilizes a modern tech stack:
 ├── data/                 # Centralized portfolio data (portfolioData.ts)
 ├── public/               # Static assets (images, icons, etc.)
 └── package.json          # Project dependencies & scripts
+
+"
+ata aro  professonal kore daw
