@@ -1,0 +1,87 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" rx="16" fill="#0C0A1D"/>
+  <rect x="0" y="0" width="800" height="450" rx="16" stroke="#1E1B4B" stroke-width="2"/>
+  
+  <!-- Window Bar -->
+  <path d="M0 16C0 7.16344 7.16344 0 16 0H784C792.837 0 800 7.16344 800 16V44H0V16Z" fill="#110E2E"/>
+  <circle cx="28" cy="22" r="5" fill="#EF4444"/>
+  <circle cx="44" cy="22" r="5" fill="#F59E0B"/>
+  <circle cx="60" cy="22" r="5" fill="#10B981"/>
+  <rect x="90" y="12" width="240" height="20" rx="6" fill="#1E1B4B"/>
+  <text x="105" y="26" fill="#A855F7" font-family="system-ui, sans-serif" font-size="11" font-weight="600">my-devstack-builder.netlify.app</text>
+
+  <!-- Ambient Glow -->
+  <circle cx="400" cy="230" r="180" fill="#A855F7" fill-opacity="0.09" filter="blur(70px)"/>
+  
+  <!-- Left Side: Tech Category Filters -->
+  <rect x="30" y="65" width="200" height="355" rx="12" fill="#110E2E" stroke="#1E1B4B"/>
+  <text x="45" y="95" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="800">⚡ DevStack Builder</text>
+
+  <rect x="45" y="115" width="170" height="36" rx="8" fill="#7C3AED" fill-opacity="0.2" stroke="#A855F7" stroke-width="1.5"/>
+  <text x="58" y="138" fill="#C084FC" font-family="system-ui, sans-serif" font-size="12" font-weight="700">🎨 Frontend Frameworks</text>
+
+  <rect x="45" y="159" width="170" height="36" rx="8" fill="#1A163B"/>
+  <text x="58" y="182" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">⚙️ Backend &amp; APIs</text>
+
+  <rect x="45" y="203" width="170" height="36" rx="8" fill="#1A163B"/>
+  <text x="58" y="226" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">🗄️ Database &amp; Storage</text>
+
+  <rect x="45" y="247" width="170" height="36" rx="8" fill="#1A163B"/>
+  <text x="58" y="270" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">🚀 DevOps &amp; Cloud</text>
+
+  <rect x="45" y="291" width="170" height="36" rx="8" fill="#1A163B"/>
+  <text x="58" y="314" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">🧪 Testing &amp; QA</text>
+
+  <!-- Right: Stack Grid &amp; Builder Canvas -->
+  <rect x="250" y="65" width="520" height="355" rx="12" fill="#110E2E" stroke="#1E1B4B"/>
+  
+  <text x="275" y="98" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="16" font-weight="800">Selected Tech Stack (Full Stack MERN / Next.js)</text>
+  <text x="275" y="116" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Click any card to inspect compatibility, installation scripts &amp; dependencies</text>
+
+  <!-- Stack Cards Grid -->
+  <!-- Card 1 (React) -->
+  <rect x="275" y="135" width="150" height="90" rx="10" fill="#18133E" stroke="#06B6D4" stroke-width="1.5"/>
+  <text x="290" y="162" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="14" font-weight="700">⚛️ React 19</text>
+  <text x="290" y="180" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10">Component UI Library</text>
+  <text x="290" y="208" fill="#10B981" font-family="system-ui, sans-serif" font-size="10" font-weight="600">✓ In Stack</text>
+
+  <!-- Card 2 (Next.js) -->
+  <rect x="440" y="135" width="150" height="90" rx="10" fill="#18133E" stroke="#A855F7" stroke-width="1.5"/>
+  <text x="455" y="162" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="14" font-weight="700">▲ Next.js 16</text>
+  <text x="455" y="180" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10">Full Stack Framework</text>
+  <text x="455" y="208" fill="#10B981" font-family="system-ui, sans-serif" font-size="10" font-weight="600">✓ In Stack</text>
+
+  <!-- Card 3 (Tailwind) -->
+  <rect x="605" y="135" width="145" height="90" rx="10" fill="#18133E" stroke="#38BDF8" stroke-width="1.5"/>
+  <text x="620" y="162" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="14" font-weight="700">🌊 Tailwind 4</text>
+  <text x="620" y="180" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10">Utility First Styling</text>
+  <text x="620" y="208" fill="#10B981" font-family="system-ui, sans-serif" font-size="10" font-weight="600">✓ In Stack</text>
+
+  <!-- Card 4 (Node.js) -->
+  <rect x="275" y="238" width="150" height="90" rx="10" fill="#18133E" stroke="#10B981" stroke-width="1.5"/>
+  <text x="290" y="265" fill="#4ADE80" font-family="system-ui, sans-serif" font-size="14" font-weight="700">🟢 Node.js</text>
+  <text x="290" y="283" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10">JavaScript Runtime</text>
+  <text x="290" y="311" fill="#10B981" font-family="system-ui, sans-serif" font-size="10" font-weight="600">✓ In Stack</text>
+
+  <!-- Card 5 (MongoDB) -->
+  <rect x="440" y="238" width="150" height="90" rx="10" fill="#18133E" stroke="#22C55E" stroke-width="1.5"/>
+  <text x="455" y="265" fill="#4ADE80" font-family="system-ui, sans-serif" font-size="14" font-weight="700">🍃 MongoDB</text>
+  <text x="455" y="283" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10">NoSQL Database</text>
+  <text x="455" y="311" fill="#10B981" font-family="system-ui, sans-serif" font-size="10" font-weight="600">✓ In Stack</text>
+
+  <!-- Card 6 (TypeScript) -->
+  <rect x="605" y="238" width="145" height="90" rx="10" fill="#18133E" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="620" y="265" fill="#60A5FA" font-family="system-ui, sans-serif" font-size="14" font-weight="700">🟦 TypeScript</text>
+  <text x="620" y="283" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10">Type Safety &amp; Lints</text>
+  <text x="620" y="311" fill="#10B981" font-family="system-ui, sans-serif" font-size="10" font-weight="600">✓ In Stack</text>
+
+  <!-- Action Bar at Bottom -->
+  <rect x="275" y="348" width="475" height="52" rx="10" fill="#1E1B4B" stroke="#312E81"/>
+  <text x="295" y="378" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Export Architecture:</text>
+  <rect x="440" y="358" width="85" height="32" rx="6" fill="#7C3AED"/>
+  <text x="455" y="378" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="11" font-weight="700">JSON ▾</text>
+  <rect x="535" y="358" width="95" height="32" rx="6" fill="#2563EB"/>
+  <text x="550" y="378" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="11" font-weight="700">YAML ▾</text>
+  <rect x="640" y="358" width="95" height="32" rx="6" fill="#0D9488"/>
+  <text x="655" y="378" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="11" font-weight="700">Docker ▾</text>
+</svg>

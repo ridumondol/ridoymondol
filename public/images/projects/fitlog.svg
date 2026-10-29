@@ -1,0 +1,94 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" rx="16" fill="#090E1F"/>
+  <rect x="0" y="0" width="800" height="450" rx="16" stroke="#1E293B" stroke-width="2"/>
+  
+  <!-- Window Bar -->
+  <path d="M0 16C0 7.16344 7.16344 0 16 0H784C792.837 0 800 7.16344 800 16V44H0V16Z" fill="#0B132B"/>
+  <circle cx="28" cy="22" r="5" fill="#EF4444"/>
+  <circle cx="44" cy="22" r="5" fill="#F59E0B"/>
+  <circle cx="60" cy="22" r="5" fill="#10B981"/>
+  <rect x="90" y="12" width="220" height="20" rx="6" fill="#1E293B"/>
+  <text x="105" y="26" fill="#3B82F6" font-family="system-ui, sans-serif" font-size="11" font-weight="600">fitlog-workout.vercel.app</text>
+
+  <!-- Ambient Glow -->
+  <circle cx="450" cy="220" r="170" fill="#3B82F6" fill-opacity="0.09" filter="blur(70px)"/>
+  
+  <!-- Left Side: Workout Routine Navigation -->
+  <rect x="30" y="65" width="210" height="355" rx="12" fill="#0F172A" stroke="#1E293B"/>
+  <text x="45" y="95" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="800">💪 FitLog Library</text>
+  
+  <!-- Routine list -->
+  <rect x="45" y="115" width="180" height="48" rx="10" fill="#1E293B" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="58" y="135" fill="#60A5FA" font-family="system-ui, sans-serif" font-size="12" font-weight="700">Push Day (Chest/Triceps)</text>
+  <text x="58" y="152" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10">6 exercises • 45 mins</text>
+
+  <rect x="45" y="173" width="180" height="44" rx="8" fill="#0B132B"/>
+  <text x="58" y="193" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Pull Day (Back/Biceps)</text>
+  <text x="58" y="208" fill="#64748B" font-family="system-ui, sans-serif" font-size="10">5 exercises • 40 mins</text>
+
+  <rect x="45" y="225" width="180" height="44" rx="8" fill="#0B132B"/>
+  <text x="58" y="245" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Legs &amp; Core</text>
+  <text x="58" y="260" fill="#64748B" font-family="system-ui, sans-serif" font-size="10">6 exercises • 50 mins</text>
+
+  <rect x="45" y="277" width="180" height="44" rx="8" fill="#0B132B"/>
+  <text x="58" y="297" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Cardio &amp; Mobility</text>
+  <text x="58" y="312" fill="#64748B" font-family="system-ui, sans-serif" font-size="10">3 exercises • 30 mins</text>
+
+  <!-- Progress Bar in Left Card -->
+  <rect x="45" y="340" width="180" height="65" rx="10" fill="#090E1F" stroke="#1E293B"/>
+  <text x="58" y="360" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10" font-weight="600">WEEKLY GOAL</text>
+  <text x="195" y="360" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="10" font-weight="700">80%</text>
+  <rect x="58" y="375" width="154" height="6" rx="3" fill="#1E293B"/>
+  <rect x="58" y="375" width="124" height="6" rx="3" fill="#38BDF8"/>
+  <text x="58" y="396" fill="#64748B" font-family="system-ui, sans-serif" font-size="9">4 of 5 workouts logged</text>
+
+  <!-- Right Exercise Session View -->
+  <rect x="260" y="65" width="510" height="355" rx="12" fill="#0F172A" stroke="#1E293B"/>
+  <text x="285" y="98" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="17" font-weight="800">Barbell Bench Press</text>
+  <text x="285" y="116" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="11">Chest Primary • Compound Movement</text>
+
+  <!-- Sets table -->
+  <rect x="285" y="135" width="460" height="32" rx="6" fill="#1E293B" fill-opacity="0.6"/>
+  <text x="300" y="155" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">SET</text>
+  <text x="380" y="155" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">PREVIOUS</text>
+  <text x="490" y="155" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">WEIGHT (KG)</text>
+  <text x="610" y="155" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">REPS</text>
+  <text x="690" y="155" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">DONE</text>
+
+  <!-- Set 1 -->
+  <text x="300" y="195" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13" font-weight="700">1</text>
+  <text x="380" y="195" fill="#64748B" font-family="system-ui, sans-serif" font-size="12">60 kg x 12</text>
+  <rect x="480" y="177" width="80" height="28" rx="6" fill="#0B132B" stroke="#334155"/>
+  <text x="508" y="195" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="12" font-weight="600">65</text>
+  <rect x="600" y="177" width="60" height="28" rx="6" fill="#0B132B" stroke="#334155"/>
+  <text x="622" y="195" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="12" font-weight="600">12</text>
+  <circle cx="705" cy="191" r="10" fill="#10B981"/>
+  <path d="M700 191L703 194L710 187" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Set 2 -->
+  <text x="300" y="238" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13" font-weight="700">2</text>
+  <text x="380" y="238" fill="#64748B" font-family="system-ui, sans-serif" font-size="12">70 kg x 10</text>
+  <rect x="480" y="220" width="80" height="28" rx="6" fill="#0B132B" stroke="#334155"/>
+  <text x="508" y="238" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="12" font-weight="600">75</text>
+  <rect x="600" y="220" width="60" height="28" rx="6" fill="#0B132B" stroke="#334155"/>
+  <text x="622" y="238" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="12" font-weight="600">10</text>
+  <circle cx="705" cy="234" r="10" fill="#10B981"/>
+  <path d="M700 234L703 237L710 230" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Set 3 -->
+  <text x="300" y="281" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13" font-weight="700">3</text>
+  <text x="380" y="281" fill="#64748B" font-family="system-ui, sans-serif" font-size="12">75 kg x 8</text>
+  <rect x="480" y="263" width="80" height="28" rx="6" fill="#0B132B" stroke="#38BDF8"/>
+  <text x="508" y="281" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="12" font-weight="600">80</text>
+  <rect x="600" y="263" width="60" height="28" rx="6" fill="#0B132B" stroke="#38BDF8"/>
+  <text x="625" y="281" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="12" font-weight="600">8</text>
+  <circle cx="705" cy="277" r="10" fill="#334155"/>
+  <path d="M700 277L703 280L710 273" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Bottom Action &amp; Timer -->
+  <rect x="285" y="325" width="220" height="42" rx="10" fill="#2563EB"/>
+  <text x="335" y="351" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="13" font-weight="700">+ Add Next Set</text>
+  
+  <rect x="525" y="325" width="220" height="42" rx="10" fill="#1E293B" stroke="#334155"/>
+  <text x="560" y="351" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="12" font-weight="600">⏱️ Rest Timer: 01:30</text>
+</svg>

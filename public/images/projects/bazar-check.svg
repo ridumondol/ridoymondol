@@ -1,0 +1,81 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" rx="16" fill="#0B132B"/>
+  <rect x="0" y="0" width="800" height="450" rx="16" stroke="#1E293B" stroke-width="2"/>
+  
+  <!-- Top App Window Bar -->
+  <path d="M0 16C0 7.16344 7.16344 0 16 0H784C792.837 0 800 7.16344 800 16V44H0V16Z" fill="#0F172A"/>
+  <circle cx="28" cy="22" r="5" fill="#EF4444"/>
+  <circle cx="44" cy="22" r="5" fill="#F59E0B"/>
+  <circle cx="60" cy="22" r="5" fill="#10B981"/>
+  <rect x="90" y="12" width="220" height="20" rx="6" fill="#1E293B"/>
+  <text x="105" y="26" fill="#06B6D4" font-family="system-ui, sans-serif" font-size="11" font-weight="600">bazar-check.vercel.app</text>
+
+  <!-- Background Glow &amp; Grid -->
+  <circle cx="400" cy="225" r="180" fill="#06B6D4" fill-opacity="0.08" filter="blur(60px)"/>
+  
+  <!-- Left Side Menu Mock -->
+  <rect x="30" y="65" width="180" height="355" rx="12" fill="#0F172A" stroke="#1E293B"/>
+  <rect x="46" y="85" width="148" height="28" rx="8" fill="#06B6D4" fill-opacity="0.15"/>
+  <text x="58" y="103" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12" font-weight="700">🛒 Daily Market List</text>
+  <rect x="46" y="125" width="148" height="24" rx="6" fill="#1E293B"/>
+  <text x="58" y="141" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">🥩 Meat &amp; Poultry</text>
+  <rect x="46" y="157" width="148" height="24" rx="6" fill="#1E293B"/>
+  <text x="58" y="173" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">🥬 Fresh Vegetables</text>
+  <rect x="46" y="189" width="148" height="24" rx="6" fill="#1E293B"/>
+  <text x="58" y="205" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">🐟 Seafood &amp; Fish</text>
+  <rect x="46" y="221" width="148" height="24" rx="6" fill="#1E293B"/>
+  <text x="58" y="237" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">🌾 Grains &amp; Rice</text>
+  
+  <rect x="46" y="360" width="148" height="42" rx="8" fill="#0284C7"/>
+  <text x="75" y="386" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="12" font-weight="600">+ Add Item</text>
+
+  <!-- Right Dashboard Content -->
+  <!-- Stats row -->
+  <rect x="230" y="65" width="170" height="70" rx="10" fill="#0F172A" stroke="#1E293B"/>
+  <text x="246" y="88" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Estimated Total</text>
+  <text x="246" y="118" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="20" font-weight="800">৳ 2,450.00</text>
+
+  <rect x="415" y="65" width="170" height="70" rx="10" fill="#0F172A" stroke="#1E293B"/>
+  <text x="431" y="88" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Total Items Tracked</text>
+  <text x="431" y="118" fill="#10B981" font-family="system-ui, sans-serif" font-size="20" font-weight="800">18 Commodities</text>
+
+  <rect x="600" y="65" width="170" height="70" rx="10" fill="#0F172A" stroke="#1E293B"/>
+  <text x="616" y="88" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Market Status</text>
+  <text x="616" y="118" fill="#F59E0B" font-family="system-ui, sans-serif" font-size="18" font-weight="700">● Live Updates</text>
+
+  <!-- Table Mockup -->
+  <rect x="230" y="150" width="540" height="270" rx="12" fill="#0F172A" stroke="#1E293B"/>
+  <rect x="230" y="150" width="540" height="38" rx="12" fill="#1E293B" fill-opacity="0.5"/>
+  <text x="250" y="174" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Commodity Name</text>
+  <text x="430" y="174" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Unit Rate</text>
+  <text x="560" y="174" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Quantity</text>
+  <text x="680" y="174" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Subtotal</text>
+
+  <!-- Row 1 -->
+  <text x="250" y="215" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Miniket Rice (5kg)</text>
+  <text x="430" y="215" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13">৳ 72 / kg</text>
+  <text x="560" y="215" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="13">5 kg</text>
+  <text x="680" y="215" fill="#10B981" font-family="system-ui, sans-serif" font-size="13" font-weight="700">৳ 360</text>
+
+  <!-- Row 2 -->
+  <text x="250" y="260" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Broiler Chicken</text>
+  <text x="430" y="260" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13">৳ 195 / kg</text>
+  <text x="560" y="260" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="13">2 kg</text>
+  <text x="680" y="260" fill="#10B981" font-family="system-ui, sans-serif" font-size="13" font-weight="700">৳ 390</text>
+
+  <!-- Row 3 -->
+  <text x="250" y="305" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Fresh Potatoes (Deshi)</text>
+  <text x="430" y="305" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13">৳ 35 / kg</text>
+  <text x="560" y="305" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="13">3 kg</text>
+  <text x="680" y="305" fill="#10B981" font-family="system-ui, sans-serif" font-size="13" font-weight="700">৳ 105</text>
+
+  <!-- Row 4 -->
+  <text x="250" y="350" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Soybean Cooking Oil</text>
+  <text x="430" y="350" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13">৳ 168 / L</text>
+  <text x="560" y="350" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="13">2 L</text>
+  <text x="680" y="350" fill="#10B981" font-family="system-ui, sans-serif" font-size="13" font-weight="700">৳ 336</text>
+
+  <!-- Badge at bottom right -->
+  <rect x="580" y="380" width="175" height="28" rx="6" fill="#06B6D4" fill-opacity="0.15" stroke="#06B6D4" stroke-opacity="0.4"/>
+  <text x="595" y="398" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">⚡ Auto Synced Realtime</text>
+</svg>
