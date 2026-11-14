@@ -46,8 +46,8 @@ export default async function ProjectDetailPage({
 
           <div className="p-6 md:p-10">
             <p className="text-xs uppercase tracking-widest text-muted">{project.badge}</p>
-            <h1 className="mt-2 text-3xl md:text-5xl font-extrabold text-primary">{project.name}</h1>
-            <p className="mt-4 text-secondary leading-relaxed">{project.fullDescription}</p>
+            <h1 className="mt-2 text-3xl md:text-5xl font-extrabold text-primary break-words">{project.name}</h1>
+            <p className="mt-4 text-secondary leading-relaxed break-words">{project.fullDescription}</p>
 
             <div className="mt-6 flex flex-wrap gap-2">
               {project.techStack.map((t) => (
@@ -61,9 +61,20 @@ export default async function ProjectDetailPage({
               <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="button-primary px-6 py-3">
                 <ExternalLink size={18} /> Live Demo
               </a>
-              <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="button-secondary px-6 py-3 hover:shadow-md">
-                <GithubIcon className="w-4 h-4" /> Source Code
-              </a>
+              {project.serverGithubUrl ? (
+                <>
+                  <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="button-secondary px-6 py-3 hover:shadow-md">
+                    <GithubIcon className="w-4 h-4" /> Client Code
+                  </a>
+                  <a href={project.serverGithubUrl} target="_blank" rel="noopener noreferrer" className="button-secondary px-6 py-3 hover:shadow-md">
+                    <GithubIcon className="w-4 h-4" /> Server Code
+                  </a>
+                </>
+              ) : (
+                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="button-secondary px-6 py-3 hover:shadow-md">
+                  <GithubIcon className="w-4 h-4" /> Source Code
+                </a>
+              )}
             </div>
 
             <div className="mt-12 grid md:grid-cols-2 gap-8">
@@ -71,7 +82,7 @@ export default async function ProjectDetailPage({
                 <h2 className="text-xl font-bold mb-4">Key Features</h2>
                 <ul className="space-y-3">
                   {project.keyFeatures.map((f) => (
-                    <li key={f} className="flex gap-3 text-secondary">
+                    <li key={f} className="flex gap-3 text-secondary break-words">
                       <Check size={18} className="text-success shrink-0 mt-0.5" /> {f}
                     </li>
                   ))}
@@ -80,11 +91,11 @@ export default async function ProjectDetailPage({
               <section className="space-y-6">
                 <div>
                   <h2 className="text-xl font-bold mb-2">Challenges</h2>
-                  <p className="text-secondary leading-relaxed">{project.challenges}</p>
+                  <p className="text-secondary leading-relaxed break-words">{project.challenges}</p>
                 </div>
                 <div>
                   <h2 className="text-xl font-bold mb-2">Future Plans</h2>
-                  <p className="text-secondary leading-relaxed">{project.futurePlans}</p>
+                  <p className="text-secondary leading-relaxed break-words">{project.futurePlans}</p>
                 </div>
               </section>
             </div>

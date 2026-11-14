@@ -1,0 +1,83 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" rx="16" fill="#0C1024"/>
+  <rect x="1" y="1" width="798" height="448" rx="15" stroke="#1E293B" stroke-width="2"/>
+
+  <path d="M16 0H784C792.837 0 800 7.16344 800 16V44H0V16C0 7.16344 7.16344 0 16 0Z" fill="#11182D"/>
+  <circle cx="28" cy="22" r="5" fill="#EF4444"/>
+  <circle cx="44" cy="22" r="5" fill="#F59E0B"/>
+  <circle cx="60" cy="22" r="5" fill="#10B981"/>
+  <rect x="90" y="12" width="230" height="20" rx="6" fill="#1E293B"/>
+  <text x="105" y="26" fill="#34D399" font-family="system-ui, sans-serif" font-size="11" font-weight="600">shohojogi-delta.vercel.app</text>
+
+  <circle cx="510" cy="240" r="180" fill="#10B981" fill-opacity="0.08"/>
+
+  <rect x="30" y="65" width="190" height="355" rx="12" fill="#11182D" stroke="#26334A"/>
+  <circle cx="55" cy="91" r="14" fill="#10B981" fill-opacity="0.18"/>
+  <circle cx="51" cy="88" r="4" fill="#34D399"/>
+  <circle cx="60" cy="88" r="4" fill="#6EE7B7"/>
+  <path d="M45 101C46 95 56 95 57 101M54 101C55 95 65 95 66 101" stroke="#34D399" stroke-width="2" stroke-linecap="round"/>
+  <text x="78" y="96" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="14" font-weight="800">Shohojogi</text>
+  <text x="46" y="126" fill="#64748B" font-family="system-ui, sans-serif" font-size="9" font-weight="700" letter-spacing="1">COMMUNITY</text>
+
+  <rect x="44" y="140" width="162" height="38" rx="8" fill="#10B981" fill-opacity="0.16"/>
+  <circle cx="61" cy="159" r="6" stroke="#34D399" stroke-width="2"/>
+  <path d="M65 163L70 168" stroke="#34D399" stroke-width="2" stroke-linecap="round"/>
+  <text x="79" y="163" fill="#6EE7B7" font-family="system-ui, sans-serif" font-size="12" font-weight="700">Discover Events</text>
+
+  <rect x="44" y="188" width="162" height="38" rx="8" fill="#182238"/>
+  <path d="M57 207H69M63 201V213" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+  <text x="79" y="211" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">Create Event</text>
+
+  <rect x="44" y="236" width="162" height="38" rx="8" fill="#182238"/>
+  <path d="M56 255L61 260L70 250" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="79" y="259" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">My Contributions</text>
+
+  <rect x="44" y="340" width="162" height="62" rx="9" fill="#0C1024" stroke="#26334A"/>
+  <circle cx="63" cy="365" r="10" fill="#F59E0B" fill-opacity="0.2"/>
+  <path d="M63 359V366L68 369" stroke="#FBBF24" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="82" y="363" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10">COMMUNITY GOAL</text>
+  <text x="82" y="383" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Make a difference</text>
+
+  <rect x="240" y="65" width="530" height="355" rx="12" fill="#11182D" stroke="#26334A"/>
+  <text x="265" y="98" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="18" font-weight="800">Small actions, stronger communities</text>
+  <text x="265" y="119" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Find a local event and make an impact together.</text>
+  <rect x="265" y="136" width="480" height="42" rx="8" fill="#0C1024" stroke="#26334A"/>
+  <circle cx="284" cy="157" r="6" stroke="#34D399" stroke-width="2"/>
+  <path d="M288 161L293 166" stroke="#34D399" stroke-width="2" stroke-linecap="round"/>
+  <text x="304" y="161" fill="#64748B" font-family="system-ui, sans-serif" font-size="12">Search events near you...</text>
+  <rect x="642" y="144" width="94" height="26" rx="6" fill="#059669"/>
+  <text x="659" y="161" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="10" font-weight="700">Find events</text>
+
+  <rect x="265" y="194" width="230" height="196" rx="10" fill="#0C1024" stroke="#26334A"/>
+  <rect x="276" y="205" width="208" height="105" rx="7" fill="#142D35"/>
+  <path d="M279 276C321 247 354 287 391 250C424 218 448 251 481 222" stroke="#31515A" stroke-width="11" stroke-linecap="round"/>
+  <path d="M288 218C324 239 328 268 358 298M436 211C418 242 437 270 472 294" stroke="#25434B" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="335" cy="251" r="12" fill="#10B981" fill-opacity="0.25"/>
+  <path d="M335 242C330 242 326 246 326 251C326 258 335 265 335 265C335 265 344 258 344 251C344 246 340 242 335 242Z" fill="#34D399"/>
+  <circle cx="335" cy="251" r="3" fill="#0C1024"/>
+  <circle cx="430" cy="269" r="12" fill="#F59E0B" fill-opacity="0.25"/>
+  <path d="M430 260C425 260 421 264 421 269C421 276 430 283 430 283C430 283 439 276 439 269C439 264 435 260 430 260Z" fill="#FBBF24"/>
+  <circle cx="430" cy="269" r="3" fill="#0C1024"/>
+  <text x="280" y="333" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Tree planting meetup</text>
+  <text x="280" y="352" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10">Dhaka  •  Saturday, 9:00 AM</text>
+  <rect x="280" y="363" width="102" height="18" rx="5" fill="#10B981" fill-opacity="0.17"/>
+  <text x="291" y="376" fill="#6EE7B7" font-family="system-ui, sans-serif" font-size="9" font-weight="700">JOIN EVENT  →</text>
+
+  <rect x="510" y="194" width="235" height="196" rx="10" fill="#0C1024" stroke="#26334A"/>
+  <text x="528" y="220" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="0.7">UPCOMING COMMUNITY EVENTS</text>
+  <rect x="526" y="235" width="203" height="64" rx="8" fill="#11182D" stroke="#26334A"/>
+  <circle cx="550" cy="267" r="14" fill="#F59E0B" fill-opacity="0.17"/>
+  <path d="M550 257C545 263 544 266 544 270C544 275 547 278 550 278C553 278 556 275 556 270C556 266 555 263 550 257Z" fill="#FBBF24"/>
+  <text x="574" y="261" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="11" font-weight="700">Winter blanket drive</text>
+  <text x="574" y="279" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="9">Sylhet  •  18 volunteers</text>
+  <rect x="682" y="247" width="34" height="18" rx="5" fill="#10B981" fill-opacity="0.17"/>
+  <text x="689" y="260" fill="#6EE7B7" font-family="system-ui, sans-serif" font-size="8" font-weight="700">JOIN</text>
+
+  <rect x="526" y="309" width="203" height="64" rx="8" fill="#11182D" stroke="#26334A"/>
+  <circle cx="550" cy="341" r="14" fill="#EF4444" fill-opacity="0.16"/>
+  <path d="M550 350C550 350 540 343 540 337C540 330 548 328 550 334C552 328 560 330 560 337C560 343 550 350 550 350Z" fill="#F87171"/>
+  <text x="574" y="335" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="11" font-weight="700">Community blood drive</text>
+  <text x="574" y="353" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="9">Dhaka  •  Sunday, 10:00 AM</text>
+  <rect x="682" y="321" width="34" height="18" rx="5" fill="#10B981" fill-opacity="0.17"/>
+  <text x="689" y="334" fill="#6EE7B7" font-family="system-ui, sans-serif" font-size="8" font-weight="700">JOIN</text>
+</svg>

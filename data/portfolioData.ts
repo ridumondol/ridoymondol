@@ -106,6 +106,7 @@ export interface ProjectItem {
   image: string;
   liveUrl: string;
   githubUrl: string;
+  serverGithubUrl?: string;
   isClientProject?: boolean;
   techStack: string[];
   challenges: string;
@@ -451,6 +452,33 @@ export const portfolioData: PortfolioData = {
         "Fast client-side rendering with lightweight bundle footprint",
         "One-click sharing and deployment configurations",
         "Automated deployment on Netlify with continuous delivery",
+      ],
+    },
+    {
+      id: "shohojogi",
+      name: "Shohojogi",
+      badge: "Social Development Platform",
+      shortDescription:
+        "A community service platform where users discover, create, and join social development events such as blanket drives, tree plantations, and blood donation camps across Bangladesh.",
+      fullDescription:
+        "Shohojogi is a full-stack web application that connects volunteers, event organisers, and local youth clubs across Bangladesh. Users can browse upcoming community service events, RSVP in one click, create their own events with schedules and volunteer details, and track their volunteer contributions.",
+      image: "/images/projects/shohojogi.svg",
+      liveUrl: "https://shohojogi-delta.vercel.app/",
+      githubUrl: "https://github.com/ridumondol/shohojogi-client",
+      serverGithubUrl: "https://github.com/ridumondol/shohojogi-server",
+      isClientProject: false,
+      techStack: ["Next.js", "React", "Express.js", "MongoDB", "BetterAuth", "JWT", "Vercel"],
+      challenges:
+        "I had to balance public event discovery with protected participation and organiser actions, using JWT verification and owner-only checks for event changes. Validating event dates also helped keep past events from appearing as actionable opportunities.",
+      futurePlans:
+        "Planned improvements include map-based event discovery, notifications for schedule changes, and richer volunteer-hours and contribution tracking.",
+      keyFeatures: [
+        "Event creation with custom location pins, schedules, and volunteer details",
+        "One-click RSVP for tree plantations, blood drives, and food distributions",
+        "Volunteer dashboard for tracking hours, badges, and social contributions",
+        "Organiser tools to update schedules, view attendee lists, and manage volunteer logistics",
+        "Secure authentication with BetterAuth and JWT",
+        "Responsive interface optimised for both mobile and desktop",
       ],
     },
   ],
